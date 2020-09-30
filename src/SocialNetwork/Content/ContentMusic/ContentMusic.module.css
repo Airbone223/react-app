@@ -1,0 +1,10 @@
+.audio {
+    padding:10px;
+    font-size:20px;
+    color:#024A68;
+    text-align: center;
+}
+
+.audio audio{
+   margin:15px;
+}

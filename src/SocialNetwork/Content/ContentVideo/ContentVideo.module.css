@@ -1,0 +1,10 @@
+.video {
+    padding:10px;
+    font-size:20px;
+    color:#024A68;
+    text-align: center;
+}
+
+.video  video{
+   margin:15px;
+}

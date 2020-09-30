@@ -1,0 +1,79 @@
+.wallCreate {
+    margin:0 auto;
+    margin-bottom: 10px;
+width:600px;
+display: flex;
+align-items: center;
+
+}
+
+.wallCreate textarea {
+    background-color:#63AFD0;
+    font-size: 14px;
+    color:white;
+    border: 3px solid #024A68;
+    border-radius:10px;
+width:400px;
+height:40px;
+text-align: center;
+}
+
+.wallCreate button {
+    background-color:#63AFD0;
+    color:white;
+    margin: 0 auto;
+    border: 3px solid #024A68;
+    border-radius:10px;
+}
+
+.friend, .answer {
+    background-color:#63AFD0;
+    display:flex;
+    align-content: center;
+    align-items: center;
+    border: 3px solid #024A68;
+    border-radius: 10px;
+    margin:10px;
+}
+
+.answer .avatar img {
+    margin-left:100px; }
+
+.avatar img {
+   margin-left:20px;
+   margin-top:5px;
+    height:85px;
+    width:auto;
+    border: 3px solid #024A68;
+    border-radius: 50%;
+}
+
+.avatar {
+width:150px;
+}
+
+.name {
+    margin-top:10px;
+    margin-bottom:10px;
+    width:350px;
+margin-left:80px;
+border:2px solid #024A;
+padding:10px;
+border-radius: 40px 40px 40px 0px ;
+background-color:white;
+}
+
+.answer .name {
+    margin-left:150px;
+    border-radius: 40px 40px 0px 40px ;
+}
+
+p {
+    
+    color: #024A;
+font-size:18px;
+}
+ span {
+     color:#024A68;
+     font-size:12px; 
+ }

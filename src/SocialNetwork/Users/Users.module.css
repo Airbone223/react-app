@@ -1,0 +1,110 @@
+
+
+.friend {
+    background-color:#63AFD0;
+    display:flex;
+    align-content: center;
+    align-items: center;
+    border: 3px solid #024A68;
+    border-radius: 10px;
+    margin:10px;
+}
+
+.avatar .img {
+   margin-left:50px;
+   margin-top:5px;
+    height:85px;
+    width:auto;
+    border: 3px solid #024A68;
+    border-radius: 50%;
+}
+
+.avatar {
+width:100px;
+}
+
+.name {
+margin-left:100px;
+
+}
+a {
+    text-decoration: none;
+    color: #024A68;
+font-size:20px;
+}
+
+.city {
+    color: white;
+    padding-left:60px; 
+}
+
+.searchBar {
+    background-color:#63AFD0;
+    font-size: 14px;
+    color:white;
+    border: 3px solid #024A68;
+    border-radius:10px;
+width:400px;
+height:40px;
+text-align: center;
+}
+
+.button {
+    background-color:#63AFD0;
+    color:white;
+    margin: 0 auto;
+    border: 3px solid #024A68;
+    border-radius:10px;
+    width:110px;
+    height:40px; 
+}
+.container {
+    
+    margin:10px auto 10px auto;
+width:600px;
+display: flex;
+align-items: center;
+
+}
+
+.buttonShow {
+    background-color:#63AFD0;
+    color:white;
+    margin: 0 auto;
+    border: 3px solid #024A68;
+    border-radius:10px;
+    width:130px;
+    height:40px;
+    text-align:center;
+}
+
+
+.followButton {
+    margin-left: 20px;
+    font-size: 16px;
+    border: 3px solid #024A68;
+    border-radius:10px;
+}
+
+span {
+    font-size: 18px;
+}
+
+.active {
+    font-weight: bold;
+    color: black;
+}
+span:hover {
+    cursor: pointer;
+    }
+
+
+.preolader img {
+    background-color: gray;
+    position: absolute;
+    border:0px;
+    height: 100px;
+    width: auto;
+    top: 200px;
+    left: 600px
+}    

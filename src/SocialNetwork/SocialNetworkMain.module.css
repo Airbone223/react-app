@@ -1,0 +1,42 @@
+.main {
+display: grid;
+grid-gap:10px;
+
+grid-template-columns: 1fr 1.5fr 5fr 1fr;
+grid-template-rows: 100px auto;
+
+}
+.header {
+    border-radius:10px;
+  
+    background-color: #0772A1; 
+
+grid-column: 1/-1;
+grid-row: 1/1; 
+ 
+
+}
+
+
+.navigation {
+    /* position: fixed;   
+    top: 110px;
+    left:145px;
+    width:250px; */
+    height:100%;
+    border-radius:10px;
+    background-color:	#3BA3D0;
+
+grid-column: 2;
+grid-row: 2; 
+}
+
+.content {
+    border-radius:10px;
+   
+    border: 4px solid#63AFD0; 
+
+grid-column: 3;
+grid-row: 2; 
+}
+
